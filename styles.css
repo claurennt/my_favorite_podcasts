@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+/* Header Section */
+header {
+  color: #282846;
+  position: relative;
+  width: 100%;
+  background-color: #f5f4f4;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pageTitle {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+
+.waves {
+  width: 45%;
+  margin-top: -10px;
+}
+
+h2 {
+  position: absolute;
+  letter-spacing: 8.5px;
+  font-size: 50px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+}
+
+ul {
+  list-style: none;
+  font-size: 25px;
+}
+
+/* Main Sections */
+.mainFeminism, .mainQueer, .mainPolitics, .mainTech {
+  padding: 1%;
+
+}
+
+.mainFeminism {
+  background-color: #845ec2;
+    color: #f6f6f6;
+}
+
+.mainQueer {
+  background-color: #64dfdf;
+  color: #fbfbfb;
+}
+
+.mainTech {
+  color: #282846;
+}
+
+.mainPolitics {
+  background-color: #d8dfe2;
+  color: #282846
+}
+
+a {
+  color: #282846;
+  opacity: 1;
+  text-decoration: none;
+}
+
+table, tr {
+  width: 100%;
+  height: auto;
+  border-spacing: 0;
+  font-size: 25px;
+}
+
+td {
+  padding: 2%;
+}
+
+.podcastImage1, .podcastImage2, .podcastImage3, .podcastImage4 {
+  border-radius: 10%;
+  width: 150px;
+  height: auto;
+  margin-right: 50px;
+  left: 80px;
+  position: relative;
+}
+
+.podcastImage1:hover {
+  box-shadow: 3px 3px white, 6px 6px #845ec2, 9px 9px #64dfdf;
+  opacity: 0.9;
+}
+
+.podcastImage2:hover {
+  box-shadow: 3px 3px white, 6px 6px #64dfdf, 9px 9px #845ec2;
+  opacity: 0.9;
+}
+
+.podcastImage3:hover {
+  box-shadow: 3px 3px #845ec2, 6px 6px white, 9px 9px #64dfdf;
+  opacity: 0.9;
+}
+
+.podcastImage4:hover {
+  box-shadow: 3px 3px #64dfdf, 6px 6px white, 9px 9px #845ec2;
+  opacity: 0.9;
+}
+
+.podcastRowLeft {
+  position: relative;
+  top: 20px;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.podcastImageLeft {
+  border-radius: 10%;
+  width: 150px;
+  float: left;
+  margin-right: 3%;
+  margin: 2% 2% 3% 0;
+}
+
+.podcastImageLeft:hover {
+  opacity: 0.5;
+}
+
+.listenButton {
+  width: 150px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  margin-top: 1%;
+}
+
+footer {
+  background-color: #23120b;
+  bottom: 0;
+  width: 100%;
+  padding: 3% 0;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
+.icon {
+  margin-top: 10px;
+  background-color: white;
+}
